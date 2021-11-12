@@ -547,3 +547,19 @@
 .questions__item:hover {
   box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, .15);
 }
+
+/* ===== Rotate icon, change color of titles and background ===== */
+.accordion-open .questions__header,
+.accordion-open .questions__content {
+  background-color: var(--first-color);
+}
+
+.accordion-open .questions__item-title,
+.accordion-open .questions__description,
+.accordion-open .questions__icon {
+  color: #FFF;
+}
+
+.accordion-open .questions__icon {
+  transform: rotate(45deg);
+}
