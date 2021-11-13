@@ -871,7 +871,7 @@
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .steps__container {
-    grid-template-columns: repeat (2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .product__description {
@@ -879,7 +879,7 @@
   }
 
   .product__container {
-    grid-template-columns: repeat (2, 170px);
+    grid-template-columns: repeat(2, 170px);
     justify-content: center;
     column-gap: 5rem;
   }
@@ -918,7 +918,7 @@
   .questions__container,
   .contact__container,
   .footer__container {
-    grid-template-columns: repeat (2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .home {
@@ -981,7 +981,7 @@
   }
 
   .steps__container {
-    grid-template-columns: repeat (3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .steps__bg {
@@ -998,7 +998,7 @@
 
   .product__container {
     padding: 4rem 0;
-    grid-template-columns: repeat (3, 185px);
+    grid-template-columns: repeat(3, 185px);
     gap: 4rem 6rem;
   }
 
